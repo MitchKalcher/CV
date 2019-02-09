@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Contact Me</title>
+</head>
+<body>
+  <h3>Contact Me</h3>
+  <hr>
+  <p>Mitchell Kalcher</p>
+  <p>123 Alphabet Lane</p>
+  <p>Planet Earth</p>
+  <p>The Milky Way</p>
+
+<hr>
+
+  <form action="mailto:info@IslandWebDevelopment.com" method="post" enctype="text/plain">
+    <label for="">Your Name:</label>
+    <input type="text" name="YourName" value=""><br>
+    <label>Your Email:</label>
+    <input type="email" name="YourEmail" value=""><br>
+    <label for="">Your Message:</label><br>
+    <textarea name="YourMessage" rows="10" cols="30"></textarea><br>
+    <input type="submit" name="">
+
+  </form>
+
+
+</body>
+</html>
+
+<!-- Form tag is used to define what is wanted inside of the form. This by itself doesnt do anything. A <label> tag is needed to display text within the form and then an <input> tag is then needed so that the user can input data needed to fill out the form. <input> tags are self closing tabs. they are defined by their type attribute which has many different options such as "submit", "checkbox" and "text". All tags can be found on MDN Docs. This shows other types such as files -->
+
+<!-- textarea has two attributes that are very important. These are rows and cols. this shows how tall and wide the text field should be on the website.  -->
+
+<!-- The action part of the form tab will allow to transfer the data inputed to where it needs to be. In this example, it is set to a mailto: this will open the email client and automatically input the data inputed into the fields into the message. However it wont make much sense. This is changed by using the enctype attribute. this will allow you to put it into plain text so it wont display strange characters such as %. names also need to be given to all of the input tags. this helps identify the information that has been inputted. Without these, you wouldn't know what field the information has been inputted into-->
